@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+   background-image: url('carnival.jpg');
+   background-repeat:no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+  color: #b20707;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+
+nav {
+  background-color: #a50d0d;
+  padding: 12px;
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd54f;
+}
+
+
+#welcomeBanner {
+  background: radial-gradient(circle at top left, #a81308, #e01414);
+  padding: 15px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #ffeb3b;
+  font-weight: 600;
+}
+
+
+.event-img {
+  width: 100%;
+  max-width: 400px;
+  border: 5px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.event-img:hover {
+  transform: scale(1.05);
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+caption {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #b20707;
+}
+
+
+form {
+  background-color: #b20707;
+  padding: 20px;
+  border: 2px solid #b20707;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(198, 6, 6, 0.962);
+  max-width: 600px;
+  margin: auto;
+}
+
+form input, form select, form textarea, form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #b20707;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.4s;
+}
+
+form button:hover {
+  background-color: #b20707;
+}
+
+
+#charCount {
+  font-size: 0.9rem;
+  color: #b20707;
+  text-align: right;
+}
+
+#formOutput {
+  color: green;
+  font-weight: bold;
+  margin-top: 15px;
+  display: block;
+  text-align: center;
+}
+
+
+
+
+video {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 13px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+#locationOutput {
+  margin-top: 10px;
+  font-style: italic;
+  color: #b20707;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+
+@media screen and (max-width: 780px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  table, .event-img {
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+  }
+
+  form {
+    padding: 15px;
+  }
+}
